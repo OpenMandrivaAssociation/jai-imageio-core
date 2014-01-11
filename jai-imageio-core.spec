@@ -1,9 +1,9 @@
-%_javapackages_macros
+%{?_javapackages_macros:%_javapackages_macros}
 %global cvs_ver 20100217
 
 Name:		jai-imageio-core
 Version:	1.2
-Release:	0.13.%{cvs_ver}cvs.0%{?dist}
+Release:	0.13.%{cvs_ver}cvs.1%{?dist}
 Summary:	Core Java Advanced Imaging Image I/O Tools API
 
 
